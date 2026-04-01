@@ -1,5 +1,5 @@
 from ultralytics import YOLO
-
+#training end at 606, not epoch=1000 => set patience=0 to train skku dataset until epochs=1000
 model_yolo=YOLO('yolo11n.pt')
 DATAPATH='/home/tuanluong/data/data.yaml'
 EPOCHS=1000
