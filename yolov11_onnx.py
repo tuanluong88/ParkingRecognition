@@ -7,9 +7,9 @@ import onnxruntime as ort
 from utils_v11 import preprocess_yolo, YoloPostProcess
 from visualize_v11 import YoloVisualizer
 
-YOLO_ONNX_PATH = '/home/rise/Sim/yolov11/modified_best_yolo200.onnx'
+YOLO_ONNX_PATH = '/home/rise/Sim/yolov11/modified_best_yolo1000.onnx'
 DATASET = [
-    '/home/rise/Sim/yolov11/public02.jpg',
+    '/home/rise/Sim/yolov11/public03.jpg',
 ]
 
 def main(args):
