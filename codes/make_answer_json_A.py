@@ -13,7 +13,7 @@ CAMERA_ID = "camera_1"
 IMAGE_FOLDER = "/home/kimminsu/바탕화면/second_result_file/second_check/frame_check/camera_1"
 DOT_JSON_PATH = "/home/kimminsu/바탕화면/second_result_file/second_check/dot/json_final/dot/parking_spots_zoneA_seg_dot.json"
 OUTPUT_GT_JSON = "/home/kimminsu/바탕화면/second_result_file/ground_truth.json"  
-
+#평가하고 싶은 영역 설정
 VALID_RANGES = [(11,23),(38, 71), (77, 110), (116, 149), (155, 188)]
 DISPLAY_SIZE = 1280  
 # ==========================================
